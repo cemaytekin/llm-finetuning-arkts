@@ -1,0 +1,101 @@
+instruction
+Create an image at the center of the screen and show how zoom functionality can be implemented. Use 'app.media.icon' as image name. (The code should be implemented using arkTS language)
+Display a long list of elements in the screen and show how vertical scrolling can be added so that the user can scroll to the bottom of the list. (The code should be implemented using arkTS language)
+Display a list of elements with horizontal scroll functionality (The code should be implemented using arkTS language)
+Design a grid of images. Name all the images as 'app.media.icon'.(The code should be implemented using arkTS language)
+Swipe between images using triangle indicator. (The code should be implemented using arkTS language)
+"Design a quiz app where questions appear in the screen. First question appears, user chooses one option and next question comes. Do it for 3 question and answers. (The code should be implemented using arkTS language)"
+Design a page with text and include a refresh button. This button should remove the text in the screen. (The code should be implemented using arkTS language)
+Show the implementation of pull to refresh functionality. (The code should be implemented using arkTS language)
+import display from '@ohos.display'  // Import for display context and show an example app using this import such as drawing with a brush in the screen (The code should be implemented using arkTS language)
+"Create a filter button for instance if there are 50 names in the list, when the user presses 'a' only names starting with 'a' stay in the screen. (The code should be implemented using arkTS language)"
+Print to the console 'hello world' (The code should be implemented using arkTS language)
+"Create a submit form with two input fields. If the user enters a number instead of string, warn the user with a prompt.(The code should be implemented using arkTS language)"
+Show the implementation of a dialogue button (The code should be implemented using arkTS language)
+Create a circular loading progress component that fills showing the percentage in the screen (The code should be implemented using arkTS language)
+Create string items and display them one by one. Add a sliding animation between items (The code should be implemented using arkTS language)
+"Show lazy loading, while user scrolling down the items should continue loading. (The code should be implemented using arkTS language)"
+Write text with different fonts to the screen. (The code should be implemented using arkTS language)
+Write text with different highlights.(The code should be implemented using arkTS language)
+Show how to implement a toast message to the user. (The code should be implemented using arkTS language)
+Implement a drop down menu (The code should be implemented using arkTS language)
+Design a chart component using @ohos/mpchart library. (The code should be implemented using arkTS language)
+Create a bmi calculator app (The code should be implemented using arkTS language)
+"List of books with their titles and release dates. When a book name is tapped, show a detailed view with additional information.(The code should be implemented using arkTS language)"
+Design a search bar to filter items based on user input. (The code should be implemented using arkTS language)
+"List of items in the screen each with a delete button next to it. When delete button pressed, the corresponding item should be deleted.(The code should be implemented using arkTS language)"
+Bind an object to the swiper component. First design this swiper component. (The code should be be implemented using arkTS language)
+Design a custom dialog(The code should be implemented using arkTS language)
+Show for each syntax. (The code should be implemented using arkTS language)
+"Create an arkTS app that displays a grid of product cards with images, names, and prices. When a product is tapped, show a detailed view with additional information and an 'Add to Cart' button. (The code should be implemented using arkTS language)"
+"Design an arkTS app with a search bar at the top that filters a list of contacts shown below. Each contact should have a profile picture, name, and phone number. (The code should be implemented using arkTS language)"
+"Build an arkTS app with a login screen that includes username and password fields, a 'Remember Me' checkbox, and a login button. After successful login, navigate to a home screen. (The code should be implemented using arkTS language)"
+"Create an arkTS app that uses tabs to switch between different views: 'Home', 'Favorites', and 'Settings'. Include appropriate icons for each tab and different content for each view. (The code should be implemented using arkTS language)"
+"Develop an arkTS app that implements a to-do list with the ability to add new tasks, mark tasks as complete, and delete tasks. Include a counter showing the number of remaining tasks. (The code should be implemented using arkTS language)"
+"Build an arkTS app that displays weather information with temperature, weather condition, and a 5-day forecast. Include appropriate weather icons and animations. (The code should be implemented using arkTS language)"
+Create an arkTS app with a slider component that allows users to select a value between 0 and 100. Display the selected value and update a progress bar accordingly. (The code should be implemented using arkTS language)
+"Design an arkTS app with a custom dialog that appears when a button is pressed. The dialog should include a title, message, and two buttons: 'Cancel' and 'Confirm'. (The code should be implemented using arkTS language)"
+"Develop an arkTS app that implements a swipeable card interface where users can swipe left to reject or right to accept items, similar to dating apps."
+"Create an arkTS app that displays a list of notifications. Each notification should have an icon, title, message, and timestamp. Include a 'Clear All' button at the bottom. (The code should be implemented using arkTS language)"
+Create an arkTS app with a calendar component that displays the selected date on screen and logs it to the console when a user selects a date.
+Implement an arkTS app with a calendar that can toggle between Lunar and Solar calendar types using a 'Switch Calendar' button. The selected date should be printed to the console whenever it changes.
+Design an arkTS app with a time selector that allows users to switch between 12-hour (AM/PM) and 24-hour format using a button. Display the selected time on screen.
+Build an arkTS app with a TextPicker component that allows users to select from a list of fruit names. Highlight the selected item in blue with a larger font and display its position in the list on the console.
+Create an arkTS app with three radio buttons where the selected radio button has a pink background. Print the status of each radio button to the console when the selection changes.
+"Develop an arkTS app with horizontally aligned radio buttons in a Flex container, where Radio1 uses a Tick indicator, Radio2 uses a Dot indicator, and Radio3 uses a custom indicator defined by an indicatorBuilder function."
+"Implement an arkTS app with radio buttons that turn red when selected, where button1 controls radio1 (normal button when on, capsule button when off) and button2 controls radio2 (normal button when on, circle button when off)."
+"Create an arkTS app with a Rating component that updates and displays the user's rating when changed. Show static user information (photo, name, date) alongside the rating."
+"Design an arkTS app with a custom rating bar where each circle represents 0.5 points. Include a parameter called ratingIndicator that, when true, makes the rating bar display-only, and when false, allows the rating to be changed."
+Build an arkTS app with a rating component that has configurable properties: ratingStars to set the rating value and ratingStepsize to set the rating step increment.
+Create an arkTS app that demonstrates HorizontalAlign.Center by centering child elements horizontally within a container.
+Implement an arkTS app with a container using HorizontalAlign.End to align child elements to the right side horizontally.
+"Design an arkTS app that shows the difference between VerticalAlign.Top, VerticalAlign.Center, and VerticalAlign.Bottom by applying each to separate containers with identical child elements."
+Develop an arkTS app with a Flex container using justifyContent(FlexAlign.Start) to align elements vertically with the first element at the beginning of the line.
+"Implement an arkTS app with a drag- and -drop interface that actively initiates dragging, passes in the object to be dragged after the dragging is initiated, and carries the dragging information.Return the result through a Promise."
+Create an arkTS app that demonstrates how to place an image inside a frame component with proper sizing and alignment.
+Implement an arkTS app that shows how to register and use custom fonts with different font styles for text elements.
+"Design an arkTS app that loads and displays images of different basic types, showing how to handle each type appropriately."
+Build an arkTS app that loads online images with a configurable timeout and displays a placeholder image (using the alt property) during the loading process.
+Develop an arkTS app that uses HTTP to send a network request and then decodes the returned data into a PixelMap object for display in an Image component.
+"Create an arkTS app that demonstrates how to add event handlers (like onClick, onHover) to image components and respond to user interactions."
+Implement an arkTS app showing different image resizing techniques in various directions while maintaining aspect ratio or allowing distortion as needed.
+Design an arkTS app that plays animations using a specified pixel map array with control options for speed and repetition.
+Create an arkTS app that applies different color filters to images and allows users to switch between filter effects.
+"Build an arkTS app demonstrating the different objectFit properties (contain, cover, fill, none, scaleDown) when arranging images on screen with various container sizes."
+"Implement an arkTS app that plays animations from resource files, with controls for starting, pausing, and stopping the animation."
+Develop an arkTS app that demonstrates how to create and play animations using PixelMap type resources with transition effects between frames.
+"Develop an arkTS app with a form containing input fields for email and password, with validation that checks for proper email format and minimum password length before enabling a submit button."
+Show how to change the background color of a component using a button (The code should be implemented using arkTS language)
+"Build an ArkTS app that displays an image with two different scaling methods side by side in a horizontal layout, allowing users to compare contain vs. cover scaling modes"
+Create an arkTS app that implements a swipeable image gallery with pagination indicators at the bottom that highlight the current image position.
+Design an arkTS app with a top tab bar featuring a line cursor that shifts position and shrinks the active tab's name while expanding inactive tab names.
+"Implement an arkTS app bar with a centered title, right-aligned action buttons, and a search icon that expands into a functional text input field when clicked."
+"Build an arkTS tabbed interface where users can navigate between content sections either by tapping tab headers or using horizontal swipe gestures, with visual feedback showing the active tab."
+Develop an arkTS app with a capsule-shaped tab bar where tabs change background color when selected and support both tap and swipe navigation between content areas.
+"Create an arkTS music player with controls for play, pause, and skipping tracks, displaying the current song information and a progress bar for playback position."
+"Design an arkTS contact list app that displays names and phone numbers in a scrollable list, with the ability to tap on a contact to view additional details in a popup dialog."
+Implement an arkTS favorites management component that displays a list of bookmarked items with the ability to remove items via swipe gestures or delete buttons.
+"Build an arkTS app with custom text input fields featuring rounded corners, customizable borders, placeholder text, and validation for different input types."
+"Create an arkTS bottom navigation bar with four distinctly styled tabs, where the active tab displays a circular glow effect and the corresponding content area updates when tabs are selected."
+"Create a text hello world and a button underneath the text. When button clicked, text should write goodbye world. (The code should be implemented using arkTS language)"
+"Create a text hello world with yellow color and a button underneath the text. When button clicked, the color of the text should change to green. (The code should be implemented using arkTS language)"
+"Create a login page with username, password text fields. Underneath them, create a radio button for gender with values male and female. (The code should be implemented using arkTS language)"
+"Show a page navigation example. Create a button. Upon clicking this button, redirect the user to an another page. (The code should be implemented using arkTS language)"
+"Create a page where there are three tabs above in the page. You can name them pageA,pageB,pageC (The code should be implemented using arkTS language)"
+"Display an image at the center of the page. Underneath the image, write a text with value 'text'. Assume there exists an image with name 'app.media.icon' in the project folder. (The code should be implemented using arkTS language)"
+Show an example for swiping. Assume there exists two images with names app.media.icon and implement a swipe functionality so that user can swipe between these images. (The code should be implemented using arkTS language)
+Design a simple UI for a calculator app (The code should be implemented using arkTS language)
+Create a list of contacts app with names indexed according to the alphabet. (The code should be implemented using arkTS language)
+Show the implementation for a notification example . (The code should be implemented using arkTS language)
+Design a simple calendar UI (The code should be implemented using arkTS language)
+"Create an image and a button. When the button is clicked, rotate the image 90 degrees left. (The code should be implemented using arkTS language)"
+Design a counter that counts from 10 to 0 in the screen (The code should be implemented using arkTS language)
+Import and show the usage of Chip component in arkTS. (The code should be implemented using arkTS language)
+Show an example for a page transition with a selected effect of your choice in arkTS. (The code should be implemented using arkTS language)
+Create an object in the screen and enable the user to drag it somewhere else. (The code should be implemented using arkTS language)
+Implement a toggle component which acts as a on and off switch (The code should be implemented using arkTS language)
+Implement an array with fruit names and show them in a list in the screen. (The code should be implemented using arkTS language)
+Implement an array with fruit names and for each fruit put its image next to the current item in the screen. You may assume that al the names of the images are 'app.media.icon'. (The code should be implemented using arkTS language)
+Implement a long array of list of items and make sure that the list is scrollable. (The code should be implemented using arkTS language)
+Create a slider component from 0 to 100. (The code should be implemented using arkTS language)
+Show a yellow circle in the center of the screen and write a text underneath saying 'shape circle' The code should be implemented using arkTS language)
