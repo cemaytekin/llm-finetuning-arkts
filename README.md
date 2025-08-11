@@ -1,1 +1,1 @@
-This repository contains the dataset, code, and experimental materials for our research on fine-tuning Large Language Models for ArkTS (HarmonyOS) code generation.
+This repository contains the implementation, datasets, and evaluation framework for our comprehensive study on LLM-based ArkTS code generation. We introduce novel methodologies to improve LLM performance for HarmonyOS development and provide the first systematic benchmarking in this domain.
